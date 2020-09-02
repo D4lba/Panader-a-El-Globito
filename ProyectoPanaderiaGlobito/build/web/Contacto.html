@@ -1,0 +1,85 @@
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+<html>
+    <head>
+        <title>PanaderiaGlobito</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" 
+              rel="stylesheet">
+        <link rel="stylesheet" href="./css/styleConta.css"/>
+        <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon"/>
+    </head>
+    <body>
+        <header class="header" >
+            <div class="logo" >
+                <h1>Panederia El Globito</h1>
+                <img src="./img/logo.png" alt="logo">       
+            </div>
+            <nav class="menu" >
+                <a href="index.html">Principal</a>
+                <a href="Cliente.html">Cliente</a>
+                <a href="Nosotros.html">Nosotros</a>
+                 <a href="#">Producto</a>
+                <a href="Contacto.html">Contacto</a>
+            </nav>
+        </header>
+        <br>
+
+        <div class="loader">
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $(".loader").fadeOut("medium");
+                });
+            </script>
+        </div>
+        
+        <h2 class="titutlo-p" >¿En Qué Podemos Ayudarte?</h2>
+        
+        <br>
+        <div class="boxconta">
+            <section class="contacto">
+            <h2> 
+                      Atención Telefónica
+            </h2>   
+            <br>
+            <h4>
+                De lunes a domingo de 9:00 a 23:00 hrs.
+            </h4>
+            <br>
+            <h3>
+                Pedidos:
+                <br>
+                55 62 ** 56 **
+                <br>
+                Atención a Clientes: 
+                <br>
+                55 98 ** ** 25
+            </h3>
+            <br> <br>
+            <h2>
+                Buzón Globito
+            </h2>
+            <br>
+            <form>
+                <label for="nombre">Nombre:*</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <br>
+                <label for="correo">Correo Electrónico:*</label><br>
+                <input type="text" id="correo" name="correo">
+                <br><br>
+                <label for="num">Número Telefónico:*</label><br>
+                <input type="number" id="num" name="num">
+                <br><br>
+                <label for="comment">Comentario:</label><br>
+                <input type="text" id="comment" name="comment">
+            </form>
+                <br><br>
+                <button type="button">ENVIAR</button>
+            
+            </section>
+        </div>
+        
+    </body>
+</html>
